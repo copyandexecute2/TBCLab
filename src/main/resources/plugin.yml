@@ -1,0 +1,22 @@
+{
+  "name": "HGLaborLobby",
+  "author": "bluefireoly",
+  "version": "1.0.0",
+
+  "main": "net.axay.hglaborlobby.main.InternalMainClass",
+  "api-version": "1.16",
+
+  "depend": ["HGLaborDependencies"],
+
+  "commands": {
+    "spawn": {
+      "description": "Teleportiert dich zum Spawn."
+    },
+    "admingui": {
+      "description": "Öffnet das Admin GUI."
+    },
+    "damage": {
+        description: "Stellt deinen Damager Schaden ein (in halben Herzen)"
+    }
+  }
+}
